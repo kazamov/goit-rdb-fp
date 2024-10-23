@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM pandemic.infectious_cases;

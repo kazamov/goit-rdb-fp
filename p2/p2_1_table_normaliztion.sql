@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS infectious_cases_log (
   entity_id INT NULL,
   year YEAR NULL,
   disease_id INT NULL,
-  number_of_cases FLOAT NULL,
+  number_of_cases DECIMAL NULL,
   PRIMARY KEY (id),
   INDEX `infection-entity_idx` (entity_id ASC) VISIBLE,
   INDEX `infection-disease_idx` (disease_id ASC) VISIBLE,
